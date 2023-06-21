@@ -9,11 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello Cis hahahaha!")
+        List{
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello Cis hahahaha!")
+            }
+
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello Cis hahahaha!")
+            }
+
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello Cis hahahaha!")
+            }
+
         }
         .padding()
     }
