@@ -11,7 +11,9 @@ struct ContentView: View {
     var body: some View {
         List{
             VStack {
-                Image(systemName: "globe")
+                Image("image")
+                    .resizable()
+                    .scaledToFill()
                     .imageScale(.large)
                     .foregroundColor(.accentColor)
                 Text("Hello Cis hahahaha!")
